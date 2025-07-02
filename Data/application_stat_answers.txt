@@ -1,0 +1,48 @@
+
+Gender Counts:
+CODE_GENDER
+F    3301
+M    1699
+Name: count, dtype: int64
+
+Car Ownership Counts:
+FLAG_OWN_CAR
+N    3308
+Y    1692
+Name: count, dtype: int64
+
+Realty Ownership Counts:
+FLAG_OWN_REALTY
+Y    3500
+N    1500
+Name: count, dtype: int64
+
+Loan Type Counts:
+NAME_CONTRACT_TYPE
+Cash loans         4516
+Revolving loans     484
+Name: count, dtype: int64
+
+Number of Cash Loan Applications: 4516
+Number of Revolving Loan Applications: 484
+
+Marital Status Counts:
+NAME_FAMILY_STATUS
+Married                 3185
+Single / not married     735
+Civil marriage           467
+Separated                321
+Widow                    292
+Name: count, dtype: int64
+
+Number of Married Applicants: 3185
+
+Number of Applicants with Children: 1481
+
+Highest Income: 1935000.0
+Lowest Income: 25650.0
+Average Income: 168036.41
+
+Highest Credit Amount: 2517300.0
+Lowest Credit Amount: 45000.0
+Average Credit Amount: 597634.45

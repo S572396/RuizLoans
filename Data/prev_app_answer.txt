@@ -1,0 +1,15 @@
+
+Cash Loans Approval Status Counts:
+NAME_CONTRACT_STATUS
+Approved        715
+Canceled        643
+Refused         434
+Unused offer      1
+Name: count, dtype: int64
+
+Revolving Loans Approval Status Counts:
+NAME_CONTRACT_STATUS
+Approved    297
+Refused     160
+Canceled    111
+Name: count, dtype: int64
