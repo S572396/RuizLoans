@@ -1,0 +1,30 @@
+Scenario 1 probabilities: {Approved: 0.87, Canceled: 0.13}
+Scenario 1 final decision based on threshold 0.8: Approved
+
+Scenario 2 probabilities: {Approved: 0.82, Canceled: 0.18}
+Scenario 2 final decision based on threshold 0.8: Approved
+
+Scenario 3 probabilities: {Approved: 0.84, Canceled: 0.16}
+Scenario 3 final decision based on threshold 0.8: Approved
+
+Scenario 4 probabilities: {Approved: 0.85, Canceled: 0.15}
+Scenario 4 final decision based on threshold 0.8: Approved
+
+Scenario 5 probabilities: {Approved: 0.72, Canceled: 0.28}
+Scenario 5 final decision based on threshold 0.8: Not Approved
+
+Scenario 6 probabilities: {Approved: 0.81, Canceled: 0.19}
+Scenario 6 final decision based on threshold 0.8: Approved
+
+Scenario 7 probabilities: {Approved: 0.86, Canceled: 0.14}
+Scenario 7 final decision based on threshold 0.8: Approved
+
+Scenario 8 probabilities: {Approved: 0.58, Canceled: 0.42}
+Scenario 8 final decision based on threshold 0.8: Not Approved
+
+Scenario 9 probabilities: {Approved: 0.79, Canceled: 0.21}
+Scenario 9 final decision based on threshold 0.8: Not Approved
+
+Scenario 10 probabilities: {Approved: 0.86, Canceled: 0.14}
+Scenario 10 final decision based on threshold 0.8: Approved
+
