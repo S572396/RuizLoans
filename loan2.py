@@ -43,6 +43,14 @@ try:
 except KeyError:
     log_and_print("\nColumn 'FLAG_OWN_REALTY' not found.")
 
+# Education 
+try:
+    education_counts = df['NAME_EDUCATION_TYPE'].value_counts()
+    log_and_print("\nEducation Type Counts:")
+    log_and_print(str(education_counts))
+except KeyError:
+    log_and_print("\nColumn 'NAME_EDUCATION_TYPE' not found.")
+
 
 
 # Age Statistics

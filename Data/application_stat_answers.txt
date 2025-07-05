@@ -17,6 +17,15 @@ Y    3500
 N    1500
 Name: count, dtype: int64
 
+Education Type Counts:
+NAME_EDUCATION_TYPE
+Secondary / secondary special    3575
+Higher education                 1200
+Incomplete higher                 163
+Lower secondary                    57
+Academic degree                     5
+Name: count, dtype: int64
+
 Age Statistics:
 Oldest Age: 68.9 years
 Youngest Age: 21.1 years
