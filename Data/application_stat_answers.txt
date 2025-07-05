@@ -17,6 +17,33 @@ Y    3500
 N    1500
 Name: count, dtype: int64
 
+Age Statistics:
+Oldest Age: 68.9 years
+Youngest Age: 21.1 years
+Average Age: 43.9 years
+
+Occupation Types Among Records:
+OCCUPATION_TYPE
+Laborers                 861
+Sales staff              550
+Core staff               469
+Drivers                  318
+Managers                 312
+High skill tech staff    187
+Accountants              167
+Medicine staff           146
+Security staff           110
+Cooking staff            100
+Cleaning staff            66
+Private service staff     45
+Low-skill Laborers        44
+Secretaries               29
+Waiters/barmen staff      19
+Realty agents             14
+HR staff                  12
+IT staff                   6
+Name: count, dtype: int64
+
 Loan Type Counts:
 NAME_CONTRACT_TYPE
 Cash loans         4516

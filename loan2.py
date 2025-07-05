@@ -43,6 +43,40 @@ try:
 except KeyError:
     log_and_print("\nColumn 'FLAG_OWN_REALTY' not found.")
 
+
+
+# Age Statistics
+try:
+    # Convert negative days to positive years
+    df['AGE_YEARS'] = (df['DAYS_BIRTH'] / -365).round(1)
+
+    max_age = df['AGE_YEARS'].max()
+    min_age = df['AGE_YEARS'].min()
+    avg_age = df['AGE_YEARS'].mean().round(1)
+
+    log_and_print("\nAge Statistics:")
+    log_and_print(f"Oldest Age: {max_age} years")
+    log_and_print(f"Youngest Age: {min_age} years")
+    log_and_print(f"Average Age: {avg_age} years")
+
+except KeyError:
+    log_and_print("\nColumn 'DAYS_BIRTH' not found.")
+
+# Occupations
+try:
+    # Remove any Nan
+    df_clean = df.dropna(subset=['OCCUPATION_TYPE'])
+    occupation_counts = df_clean['OCCUPATION_TYPE'].value_counts()
+    log_and_print("\nOccupation Types Among Records:")
+    log_and_print(str(occupation_counts))
+
+except KeyError:
+    log_and_print("\nColumn 'OCCUPATION_TYPE' not found.")
+
+
+
+
+
 # Cash or Revolving Loan type
 try:
     contract_type_counts = df['NAME_CONTRACT_TYPE'].value_counts()

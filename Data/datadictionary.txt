@@ -1,0 +1,19 @@
+Attribute Name	Description	Data Type	Example	Importance to Project
+SK_ID_CURR	Unique ID for each loan application	Numeric	100001	Identifies each loan application uniquely
+NAME_CONTRACT_TYPE	Type of loan (e.g., Cash loans, Revolving loans)	Categorical	Cash loans	Helps categorize loan types
+CODE_GENDER	Applicant’s gender	Categorical	F	Can be used to explore demographic trends
+FLAG_OWN_CAR	Indicates if the applicant owns a car (Y/N)	Categorical	Y	May suggest financial stability
+FLAG_OWN_REALTY	Indicates if the applicant owns real estate (Y/N)	Categorical	Y	May impact credit risk assessment
+CNT_CHILDREN	Number of children the applicant has	Numeric	2	May relate to financial responsibilities
+AMT_INCOME_TOTAL	Applicant’s total income	Numeric	120000	Critical for loan approval decision
+AMT_CREDIT	Total credit amount requested	Numeric	500000	Key factor in risk evaluation
+AMT_ANNUITY	Annual loan repayment amount	Numeric	25000	Important for affordability analysis
+NAME_INCOME_TYPE	Type of applicant’s income (e.g., Working, Pensioner)	Categorical	Working	Helps classify income sources
+NAME_EDUCATION_TYPE	Highest level of education	Categorical	Secondary / secondary special	May correlate with income potential
+NAME_FAMILY_STATUS	Marital status	Categorical	Married	May influence financial obligations
+NAME_HOUSING_TYPE	Type of housing (e.g., House, Apartment)	Categorical	House / apartment	May indicate asset ownership
+DAYS_EMPLOYED	Number of days the applicant has been employed	Numeric	3650	Indicates employment stability
+DAYS_BIRTH	Applicant’s age in days (negative number)	Numeric	-12000	Used to calculate applicant’s age
+OCCUPATION_TYPE	Applicant’s job type	Categorical	Laborers	May impact income and stability
+CNT_FAM_MEMBERS	Number of family members	Numeric	3	Useful for understanding household size
+TARGET	Loan repayment status (1 = default, 0 = repaid)
