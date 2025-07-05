@@ -1,0 +1,60 @@
+Application Data Preview (First 5 Rows):
+   SK_ID_CURR  TARGET NAME_CONTRACT_TYPE  ... AMT_REQ_CREDIT_BUREAU_MON AMT_REQ_CREDIT_BUREAU_QRT AMT_REQ_CREDIT_BUREAU_YEAR
+0      100002       1         Cash loans  ...                       0.0                       0.0                        1.0
+1      100003       0         Cash loans  ...                       0.0                       0.0                        0.0
+2      100004       0    Revolving loans  ...                       0.0                       0.0                        0.0
+3      100006       0         Cash loans  ...                       NaN                       NaN                        NaN
+4      100007       0         Cash loans  ...                       0.0                       0.0                        0.0
+
+[5 rows x 122 columns]
+
+The dataset contains 307511 rows and 122 columns.
+
+Application Data Summary Statistics:
+           SK_ID_CURR         TARGET NAME_CONTRACT_TYPE  ... AMT_REQ_CREDIT_BUREAU_MON AMT_REQ_CREDIT_BUREAU_QRT AMT_REQ_CREDIT_BUREAU_YEAR
+count   307511.000000  307511.000000             307511  ...             265992.000000             265992.000000              265992.000000
+unique            NaN            NaN                  2  ...                       NaN                       NaN                        NaN
+top               NaN            NaN         Cash loans  ...                       NaN                       NaN                        NaN
+freq              NaN            NaN             278232  ...                       NaN                       NaN                        NaN
+mean    278180.518577       0.080729                NaN  ...                  0.267395                  0.265474                   1.899974
+std     102790.175348       0.272419                NaN  ...                  0.916002                  0.794056                   1.869295
+min     100002.000000       0.000000                NaN  ...                  0.000000                  0.000000                   0.000000
+25%     189145.500000       0.000000                NaN  ...                  0.000000                  0.000000                   0.000000
+50%     278202.000000       0.000000                NaN  ...                  0.000000                  0.000000                   1.000000
+75%     367142.500000       0.000000                NaN  ...                  0.000000                  0.000000                   3.000000
+max     456255.000000       1.000000                NaN  ...                 27.000000                261.000000                  25.000000
+
+[11 rows x 122 columns]
+
+Saved first 5000 records of application_data.csv to application_data_sample.csv
+
+Previous Application Data Preview (First 5 Rows):
+   SK_ID_PREV  SK_ID_CURR NAME_CONTRACT_TYPE  AMT_ANNUITY  ...  DAYS_LAST_DUE_1ST_VERSION  DAYS_LAST_DUE  DAYS_TERMINATION  NFLAG_INSURED_ON_APPROVAL
+0     2030495      271877     Consumer loans     1730.430  ...                      300.0          -42.0             -37.0                        0.0
+1     2802425      108129         Cash loans    25188.615  ...                      916.0       365243.0          365243.0                        1.0
+2     2523466      122040         Cash loans    15060.735  ...                       59.0       365243.0          365243.0                        1.0
+3     2819243      176158         Cash loans    47041.335  ...                     -152.0         -182.0            -177.0                        1.0
+4     1784265      202054         Cash loans    31924.395  ...                        NaN            NaN               NaN                        NaN
+
+[5 rows x 37 columns]
+
+The previous application dataset contains 1670214 rows and 37 columns.
+
+Previous Application Data Summary Statistics:
+          SK_ID_PREV    SK_ID_CURR NAME_CONTRACT_TYPE   AMT_ANNUITY  ...  DAYS_LAST_DUE_1ST_VERSION  DAYS_LAST_DUE  DAYS_TERMINATION  NFLAG_INSURED_ON_APPROVAL
+count   1.670214e+06  1.670214e+06            1670214  1.297979e+06  ...              997149.000000  997149.000000     997149.000000              997149.000000
+unique           NaN           NaN                  4           NaN  ...                        NaN            NaN               NaN                        NaN
+top              NaN           NaN         Cash loans           NaN  ...                        NaN            NaN               NaN                        NaN
+freq             NaN           NaN             747553           NaN  ...                        NaN            NaN               NaN                        NaN
+mean    1.923089e+06  2.783572e+05                NaN  1.595512e+04  ...               33767.774054   76582.403064      81992.343838                   0.332570
+std     5.325980e+05  1.028148e+05                NaN  1.478214e+04  ...              106857.034789  149647.415123     153303.516729                   0.471134
+min     1.000001e+06  1.000010e+05                NaN  0.000000e+00  ...               -2801.000000   -2889.000000      -2874.000000                   0.000000
+25%     1.461857e+06  1.893290e+05                NaN  6.321780e+03  ...               -1242.000000   -1314.000000      -1270.000000                   0.000000
+50%     1.923110e+06  2.787145e+05                NaN  1.125000e+04  ...                -361.000000    -537.000000       -499.000000                   0.000000
+75%     2.384280e+06  3.675140e+05                NaN  2.065842e+04  ...                 129.000000     -74.000000        -44.000000                   1.000000
+max     2.845382e+06  4.562550e+05                NaN  4.180581e+05  ...              365243.000000  365243.000000     365243.000000                   1.000000
+
+[11 rows x 37 columns]
+
+ Saved first 5000 records of previous_application.csv to previous_application_sample.csv
+
