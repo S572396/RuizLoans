@@ -2,4 +2,4 @@
 *.csv
 !RuizLoans/Data/application_data_sample.csv
 !RuizLoans/Data/previous_application_sample.csv
-
+!RuizLoans/Data\data_merged.csv
