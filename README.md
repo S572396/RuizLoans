@@ -25,6 +25,12 @@ scikit-learn==1.3.0
 seaborn==0.13.0
 notebook==7.0.6
 
+## Acitvate Virutal Environment
+py -m venv .venv
+.venv\Scripts\Activate
+py -m pip install -r requirements.txt
+
+
 
 ### Section 1. Load and Explore the Data
 - 1.1 Load the dataset and display the first 10 rows.
