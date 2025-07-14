@@ -1,6 +1,8 @@
 
 # Ignore all CSV files
 *.csv
+.venv/
+
 
 # Exceptions 
 !RuizLoans/Data/application_data_sample.csv
