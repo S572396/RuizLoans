@@ -57,7 +57,7 @@ print(classification_report(y_test, y_pred, labels=range(len(le.classes_)), targ
 print("\nConfusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
-# Feature importance plot (saved previously, skip running if desired)
+# Feature importance plot 
 #importances = model.feature_importances_
 #indices = np.argsort(importances)[::-1]
 #features_list = X.columns
