@@ -35,15 +35,32 @@ py -m pip install -r requirements.txt
 ### Section 1. Load and Explore the Data
 - 1.1 Load the dataset and display the first 10 rows.
 - 1.2 Check for missing values and display summary statistics.
+- (removed columns and labels not needed)
 
 
 ### Section 2. Feature Selection and Justification
 - 2.1 Choose two input features for predicting the target.
+- Linear Regression eliminated, did not show strong correlations of features.
 
 
-### Section 3. Train a  Model
+### Section 3. Train a  Model and Process for Exploratory Analysis
 loan _model_workflow.ipynb
 model.py
 
+Random Forest Selected
+-RandomForestClassifier(random_state=42)
+-Features were encoded using one-hot encoding, and the target was label-encoded.
+-Evalluated using classification report, confusion matrix, and feature importance plot
 
+Logistic Regression Selected
+-Explored coefficients for each feature.
+-Trained using LogisticRegression(max_iter=1000).
+-Vvaluated using F1-score, precision, recall, and ROC AUC score.
+
+Train-Test Split
+-Data was split into 80% training and 20% testing
+-Passed through the Model
+-Probabilities for loan approval were calculated and set
+ at 80 percent threshold
+-Results were exported to a text file
 
