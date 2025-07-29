@@ -1,6 +1,6 @@
-#### Ruiz-Capstone- Exploring Loan Approvals 
+#### Ruiz-Capstone- Exploring A Model for Bank Loan Approvals and Predictions
 
-# A Model for Bank Loan Approval Analysis and Predictions
+
 
 ## Introuction
 Banks have to make decisions everyday regarding to approve a customers loan or deny a loan. But how is this done? What are the main factors involved that decides who gets approved while others denied? I was in banking many years and hope to explore the answers with this project with the interesting analysis involved. The authors from 
