@@ -7,7 +7,7 @@ Banks have to make decisions everyday regarding to approve a customers loan or d
 
 ## Abstract
 
-This project will work with data from a csv file, that will be cleaned and analyzed. A machine learning pipeline to predict loan approval decisions using applicant attributes will be developed. Trained, tested,and deployed two models, Random Forest and Logistic Regression, and evaluated their performance. Scenarios with random features were used for loan approval predictions.
+This project will work with data from a csv file, that will be cleaned and analyzed. A machine learning pipeline to predict loan approval decisions using applicant attributes will be developed. Trained, tested,and deployed two models, Random Forest and Logistic Regression, and evaluated their performance. Scenarios with random features were used for loan approval predictions. In detail on Overleaf.
 
 ## {Goals of this Research} 
 The goal will be to analyze csv data for bank customers and develop a model to predict loan approvals.
