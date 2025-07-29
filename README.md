@@ -1,4 +1,4 @@
-#### Ruiz-Capstone- Exploring A Model for Bank Loan Approvals and Predictions
+# Ruiz-Capstone- Exploring A Model for Bank Loan Approvals and Predictions
 
 
 
