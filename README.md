@@ -15,6 +15,9 @@ The goal will be to analyze csv data for bank customers and develop a model to p
 ## Dataset from:
 https://www.kaggle.com/code/gauravduttakiit/risk-analytics-in-banking-financial-services-1/input 
 
+## OverLeaf:
+http://www.overleaf.com/read/brjtbdnkmqfj#822946 
+
 ## Project Steps: 1. select topic, 2. select data set, 3. clean data set, 4. convert or transform data if needed, 5. train and develop a model, evaluate the model, Update and Adjust as needed.
 
 ### Requirements:
