@@ -72,7 +72,7 @@ Train-Test Split
 -Results were exported to a text file
 
 
-## Methods Used
+## Section 4.Methods Used
 
 1 Process the data-Describe your data: source, number of records, key features, and filter data set down to what needed.
 2  Exploratory analysis-correlation heatmap, linear regression, Logistic Regression, 
@@ -97,7 +97,7 @@ Logistic Regression: 91% accuracy, ROC AUC = 1.00
 Random Forest: ~86% accuracy
 
 
-## Visualizations
+## Section 5. Visualizations
 
 ### Heatmap
 ![Heatmap](correlation_heatmap.png)  
@@ -120,8 +120,8 @@ ROC curve for logistic regression with AUC = 1.00.
 
 
 
-## Conclusions
-No strong linear correlation exists between income and approval or children. However, combining multiple features in machine learning models of Random Forest Classifier and Logistic Regression led to accurate predictions on sample scenario predictions.
+## Section 6. Conclusions and Insights
+No strong linear correlation exists between income and approval or children. However, combining multiple features which Amount of Credit showed as the most important feature,in machine learning models of Random Forest Classifier and Logistic Regression led to accurate tested and deployed predictions on sample scenario predictions.
 
 
   
