@@ -2,12 +2,12 @@
 
 
 
-## Introuction
-Banks have to make decisions everyday regarding to approve a customers loan or deny a loan. But how is this done? What are the main factors involved that decides who gets approved while others denied? I was in banking many years and hope to explore the answers with this project with the interesting analysis involved. The authors from 
+## Introduction
+Banks have to make decisions everyday regarding to approve customers loan or deny a loan. But how is this done? What are the main factors involved that decides who gets approved while others denied? I was in banking many years and hope to explore the answers with this project with the interesting analysis involved. The authors from 
 
 ## Abstract
 
-This project will work with data from a csv file, that will be cleaned and analyzed. A machine learning pipeline to predict loan approval decisions using applicant attributes will be developed. Trained, tested,and deployed two models, Random Forest and Logistic Regression, and evaluated their performance. Scenarios with random features were used for loan approval predictions. In detail on Overleaf.
+This project will work with data from a csv file, that will be cleaned and analyzed. A machine learning pipeline to predict loan approval decisions using applicant attributes will be developed. Trained, tested, and deployed two models, Random Forest and Logistic Regression, and evaluated their performance. Scenarios with random features were used for loan approval predictions. In detail on Overleaf.
 
 ## {Goals of this Research} 
 The goal will be to analyze csv data for bank customers and develop a model to predict loan approvals.
@@ -35,7 +35,7 @@ py -m pip install -r requirements.txt
 
 ## Limitations & Future Work
 Limited feature included such as missing credit history, employment data. If more time avalable would have included.
-Pedictions thresholds at 80% may not be a good fit for every banks use.
+Predictions thresholds at 80% may not be a good fit for every banks use.
 
 
 
@@ -50,19 +50,19 @@ Pedictions thresholds at 80% may not be a good fit for every banks use.
 - Linear Regression eliminated, did not show strong correlations of features.
 
 
-### Section 3. Train a  Model and Process for Exploratory Analysis
+### Section 3. Train a Model and Process for Exploratory Analysis
 loan _model_workflow.ipynb
 model.py
 
 Random Forest Selected
--RandomForestClassifier(random_state=42)
+-Random Forest Classifier(random_state=42)
 -Features were encoded using one-hot encoding, and the target was label-encoded.
--Evalluated using classification report, confusion matrix, and feature importance plot
+-Evaluated using classification report, confusion matrix, and feature importance plot
 
 Logistic Regression Selected
 -Explored coefficients for each feature.
--Trained using LogisticRegression(max_iter=1000).
--Vvaluated using F1-score, precision, recall, and ROC AUC score.
+-Trained using LogisticRegression(max_liter=1000).
+-Evaluated using F1-score, precision, recall, and ROC AUC score.
 
 Train-Test Split
 -Data was split into 80% training and 20% testing
@@ -74,8 +74,8 @@ Train-Test Split
 
 ## Methods Used
 
-1 .Proceess the data-Describe your data: source, number of records, key features, and filter data set down to what needed.
-2 . Exploratory analysis-correlation heatmap, linear regression, Logistic Regression, 
+1 Process the data-Describe your data: source, number of records, key features, and filter data set down to what needed.
+2  Exploratory analysis-correlation heatmap, linear regression, Logistic Regression, 
 3. Trained Logistic Regression and Random Forest classifiers
 4. Evaluated model performance (accuracy, ROC AUC, F1 scores)
 5. Scenario testing with sample applicant info
