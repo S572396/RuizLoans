@@ -18,6 +18,10 @@ https://www.kaggle.com/code/gauravduttakiit/risk-analytics-in-banking-financial-
 ## OverLeaf:
 http://www.overleaf.com/read/brjtbdnkmqfj#822946 
 
+## GitHub Notebook for Model Delvelopment (main)
+https://github.com/S572396/RuizLoans/blob/main/Data/loan_model_workflow.ipynb
+
+
 ## Project Steps: 1. select topic, 2. select data set, 3. clean data set, 4. convert or transform data if needed, 5. train and develop a model, evaluate the model, Update and Adjust as needed.
 
 ### Requirements:
@@ -34,8 +38,8 @@ py -m venv .venv
 py -m pip install -r requirements.txt
 
 ## Limitations & Future Work
-Limited feature included such as missing credit history, employment data. If more time avalable would have included.
-Predictions thresholds at 80% may not be a good fit for every banks use.
+The csv files have a good amount of data to work with; however, they are sample data from the 2023 Kaggle data set. Being that the data are being used for possible real life banking scenarios, it may not provide an entirely accurate picture.
+The features were limited as there are many and did not include all the features such as missing credit history and scores, and employment data. The prediction thresholds were set at 80 percent which may not be a good fit for every banks use.
 
 
 
@@ -51,8 +55,8 @@ Predictions thresholds at 80% may not be a good fit for every banks use.
 
 
 ### Section 3. Train a Model and Process for Exploratory Analysis
-loan _model_workflow.ipynb
-model.py
+loan _model_workflow.ipynb (This is main file Inside the Data Folder where the Model was worked with and developed)
+model.py (preliminary work)
 
 Random Forest Selected
 -Random Forest Classifier(random_state=42)
